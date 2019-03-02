@@ -19,3 +19,6 @@ tasks.withType<Jar>() {
         from(zipTree(file.absoluteFile))
     }
 }
+
+group = "io.github.pwoolcoc"
+version = "1.0.0-SNAPSHOT"
